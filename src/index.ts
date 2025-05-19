@@ -3,7 +3,7 @@ import Koa from 'koa';
 const app = new Koa();
 
 app.use(async (ctx) => {
-  ctx.body = 'My name is Choirul Anas';
+  ctx.body = 'My name is Choirul Anas. I lives in Malang.';
 });
 
 const port = process.env.PORT || 3000;
